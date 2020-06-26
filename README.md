@@ -1,11 +1,6 @@
 
-**–** 目录
+###  目录
 
-​		**–** test
-
-​				**–**  JPEGImages 测试所用图片
-
-​				**–** Annotations 测试所用标注
 
 ​		**–** data_split.sh 划分训练集、验证集、测试集
 
@@ -39,7 +34,7 @@
 
 
 
-**–** 运行代码所需的软件环境和软件版本，并提供从裸的操作系统开始配置所需环境的命令
+### 运行代码所需的软件环境和软件版本
 
 1. 操作系统：CentOS Linux 7
 
@@ -53,7 +48,7 @@
 
  
 
-**–** 下载原始训练测试数据和整理数据的命令
+### 下载原始训练测试数据和整理数据的命令
 
 ​	原始训练测试数据下载：
 
@@ -63,7 +58,7 @@
 
 
 
-**–** 训练所提交的最优模型的命令
+### **–** 训练所提交的最优模型的命令
 
 ​	我们得到的最优模型为retinanet，其训练命令为
 
@@ -71,19 +66,19 @@
 
 
 
-**–** 用上一步训练出来的模型在十张图片上测试的命令
+### **–** 用上一步训练出来的模型在十张图片上测试的命令
 
 ​	`python evaluate_retinanet.py`
 
 
 
-**–** 用提交的最优模型在十张图片上测试的命令，以及预期的结果
+### **–** 用提交的最优模型在十张图片上测试的命令，以及预期的结果
 
    最优模型下载链接
 
 ​	https://cloud.tsinghua.edu.cn/f/c207ce51863841249616/?dl=1
 
-执行命令
+### 执行命令
 
 ```python
 wget -c https://cloud.tsinghua.edu.cn/f/c207ce51863841249616/?dl=1
@@ -92,7 +87,7 @@ python voc2coco.py test/Annotations ./test/annotation.json
 python evaluate_retinanet.py
 ```
 
-预期结果
+### 预期结果
 
 face  mAP @ 0.5: 0.8181818181818182
 
@@ -110,7 +105,7 @@ face mean mAP @[.5:.95] : 0.6954545454545454
 
 face mask mean mAP @[.5:.95]: 0.743030303030303
 
-*refernce*
+### *refernce*
 https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection
 
 https://github.com/eriklindernoren/PyTorch-YOLOv3
