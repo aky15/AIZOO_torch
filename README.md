@@ -95,12 +95,19 @@ python evaluate_retinanet.py
 预期结果
 
 face  mAP @ 0.5: 0.8181818181818182
+
 face mask mAP @ 0.5: 1.0
+
 face  mAP @ 0.7: 0.8181818181818182
+
 face mask mAP @ 0.7: 1.0
+
 face  mAP @ 0.9: 0.45454545454545453
+
 face mask mAP @ 0.9: 0.303030303030303
+
 face mean mAP @[.5:.95] : 0.6954545454545454
+
 face mask mean mAP @[.5:.95]: 0.743030303030303
 
 *refernce*
