@@ -111,3 +111,5 @@ https://pytorch.org/docs/master/torchvision/models.html#object-detection-instanc
 https://github.com/eriklindernoren/PyTorch-YOLOv3
 
 https://github.com/yhenon/pytorch-retinanet
+
+https://github.com/AIZOOTech/FaceMaskDetection
