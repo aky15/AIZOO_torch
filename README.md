@@ -1,6 +1,5 @@
-**–** 按模块描述压缩包中每部分文件的作用
 
-**–** codes
+**–** 目录
 
 ​	**–** test
 
@@ -103,3 +102,8 @@ face  mAP @ 0.9: 0.45454545454545453
 face mask mAP @ 0.9: 0.303030303030303
 face mean mAP @[.5:.95] : 0.6954545454545454
 face mask mean mAP @[.5:.95]: 0.743030303030303
+
+*refernce*
+https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection
+https://github.com/eriklindernoren/PyTorch-YOLOv3
+https://github.com/yhenon/pytorch-retinanet
