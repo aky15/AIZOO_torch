@@ -1,41 +1,41 @@
 
 **–** 目录
 
-​	**–** test
+​		**–** test
 
-​		**–**  JPEGImages 测试所用图片
+​				**–**  JPEGImages 测试所用图片
 
-​		**–** Annotations 测试所用标注
+​				**–** Annotations 测试所用标注
 
-​	**–** data_split.sh 划分训练集、验证集、测试集
-
-
-
-​	**–**  train_faster_rcnn.py 训练Faster R-CNN模型所用代码
-
-​	**–**  evaluate_faster_rcnn.py 测试Faster R-CNN模型所用代码
-
-​	**–** faster_rcnn_utils 训练、测试Faster R-CNN的依赖
+​		**–** data_split.sh 划分训练集、验证集、测试集
 
 
 
-​	**–** train_retinanet.py 训练retinanet 模型所用的代码
+​		**–**  train_faster_rcnn.py 训练Faster R-CNN模型所用代码
 
-​	**–** evaluate_retinanet.py 训练retinanet 模型所用的代码
+​		**–**  evaluate_faster_rcnn.py 测试Faster R-CNN模型所用代码
 
-​	**–** retinanet 训练、测试retinanet的依赖
-
-​	**–** voc2coco.py 进行数据格式的转换，用于retinanet测试
+​		**–** faster_rcnn_utils 训练、测试Faster R-CNN的依赖
 
 
 
-​	**–** train_yolo.py 训练yolov3 模型所用的代码
+​		**–** train_retinanet.py 训练retinanet 模型所用的代码
 
-​	**–** evaluate_yolo.py 测试yolov3 模型所用的代码
+​		**–** evaluate_retinanet.py 训练retinanet 模型所用的代码
 
-​	**–** yolo_utils 训练、测试yolov3的依赖
+​		**–** retinanet 训练、测试retinanet的依赖
 
-​	**–** config yolov3的模型定义
+​		**–** voc2coco.py 进行数据格式的转换，用于retinanet测试
+
+
+
+​		**–** train_yolo.py 训练yolov3 模型所用的代码
+
+​		**–** evaluate_yolo.py 测试yolov3 模型所用的代码
+
+​		**–** yolo_utils 训练、测试yolov3的依赖
+
+​		**–** config yolov3的模型定义
 
 
 
@@ -105,5 +105,7 @@ face mask mean mAP @[.5:.95]: 0.743030303030303
 
 *refernce*
 https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection
+
 https://github.com/eriklindernoren/PyTorch-YOLOv3
+
 https://github.com/yhenon/pytorch-retinanet
