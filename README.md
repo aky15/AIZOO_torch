@@ -43,10 +43,12 @@
 
 2. python3：推荐使用anaconda版本的python，其中已包含numpy等常用工具包。安装过程请参考https://www.anaconda.com/products/individual
 
-	3. torch 1.3版本:  conda install pytorch=1.3.0 -c pytorch
- 	4. torchvision:  conda install torchvision -c pytorch
+3. torch 1.3版本:  conda install pytorch=1.3.0 -c pytorch
+
+4. torchvision:  conda install torchvision -c pytorch
 
 5. tqdm: 用于查看训练及测试进度 conda install -c conda-forge tqdm 
+
 6. matplotlib: 绘图工具，用于进行可视化 conda install matplotlib
 
 
