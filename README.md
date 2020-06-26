@@ -34,6 +34,9 @@
 
 
 
+
+
+
 ### 运行代码所需的软件环境和软件版本
 
 1. 操作系统：CentOS Linux 7
@@ -45,6 +48,9 @@
 
 5. tqdm: 用于查看训练及测试进度 conda install -c conda-forge tqdm 
 6. matplotlib: 绘图工具，用于进行可视化 conda install matplotlib
+
+
+
 
  
 
@@ -58,23 +64,14 @@
 
 
 
-### 训练所提交的最优模型的命令
-
-​	我们得到的最优模型为retinanet，其训练命令为
-
-​	`python train_retinanet.py`
 
 
 
-### 用上一步训练出来的模型在十张图片上测试的命令
-
-​	`python evaluate_retinanet.py`
 
 
+### Retinanet 模型下载
 
-### 用提交的最优模型在十张图片上测试的命令，以及预期的结果
-
-   最优模型下载链接
+   下载链接
 
 ​	https://cloud.tsinghua.edu.cn/f/c207ce51863841249616/?dl=1
 
@@ -86,6 +83,9 @@ mv index.html?dl=1 model_final.pt
 python voc2coco.py test/Annotations ./test/annotation.json
 python evaluate_retinanet.py
 ```
+
+
+
 
 ### 预期结果
 
@@ -104,6 +104,12 @@ face mask mAP @ 0.9: 0.303030303030303
 face mean mAP @[.5:.95] : 0.6954545454545454
 
 face mask mean mAP @[.5:.95]: 0.743030303030303
+
+
+
+
+
+
 
 ### *reference*
 https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection
