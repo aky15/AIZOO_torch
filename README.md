@@ -105,7 +105,7 @@ face mean mAP @[.5:.95] : 0.6954545454545454
 
 face mask mean mAP @[.5:.95]: 0.743030303030303
 
-### *refernce*
+### *reference*
 https://pytorch.org/docs/master/torchvision/models.html#object-detection-instance-segmentation-and-person-keypoint-detection
 
 https://github.com/eriklindernoren/PyTorch-YOLOv3
