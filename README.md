@@ -121,3 +121,7 @@ https://github.com/eriklindernoren/PyTorch-YOLOv3
 https://github.com/yhenon/pytorch-retinanet
 
 https://github.com/AIZOOTech/FaceMaskDetection
+
+https://github.com/Tony607/voc2coco/blob/master/voc2coco.py
+
+https://github.com/cocodataset/cocoapi
